@@ -1,0 +1,469 @@
+/*
+contenido del index Admin
+*/
+.Bienvenido-Admin {
+
+    display: inline;
+    background: #000000;
+    width: 60px;
+    font-size: 49px;
+    position: relative;
+}
+/*
+agregando contenido
+*/
+.Admin {
+    text-align: center;
+    padding:40px 0;
+    color: #ffffff;
+    letter-spacing:1pt;
+}
+
+.Administrador {
+    background: #000000;
+    width: 100%;
+    height: 600px;
+    margin:20px auto;
+    border:solid 8px #AA7687; 
+    border-radius:14px;
+}
+.Admi-cartas {
+
+}
+
+.cardU {
+    width: auto;
+    height: 200px;
+    background:  #7E1F41;
+    border: solid #efb810;
+    margin: 1px;
+}
+
+.cardDos {
+    width: auto;
+    height: 200px;
+    background:  #7E1F41;
+    border: solid #efb810;
+    margin: 1px;
+}
+
+.cardTres {
+    width: auto;
+    height: 200px;
+    background:  #7E1F41;
+    border: solid #efb810;
+    margin: 1px;
+}
+
+.Bienvenido-Ge {
+
+    display: inline;
+    background: #000000;
+    width: 60px;
+    font-size: 49px;
+    position: relative;
+}
+
+.Gere {
+    text-align: center;
+    padding:40px 0;
+    color: #ffffff;
+    letter-spacing:1pt;
+}
+
+.Gerente {
+    background: #000000;
+    height: 70vh;
+    margin: 60px 40px 50px 40px;
+    box-shadow: 5px 6px 3px 4px #efb810;
+}
+.Ger-cartas {
+
+}
+
+.cardUno {
+
+}
+
+.cardDos {
+
+}
+
+.cardTres {
+
+}
+
+.botones-mesas{
+    display:flex;
+    justify-content:space-around;
+    font-size:18px;
+}
+
+/***************************************/
+
+/*
+*Estilo del perfil
+*/
+
+label {
+    color: #ffffff;
+}
+
+.contentper{
+    background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); 
+    height: 140vh;
+}
+
+.cardUno {
+    background: #000000;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.5);
+}
+
+.card-head {
+    padding: 7px 5px 8px 21px;   
+}
+
+.title {
+    background: transparent !important;
+}
+
+
+.card-body {
+    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    color: #ffffff;
+}
+
+.h {
+    background: #ffffff;
+    
+}
+
+.card {
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 2px 13px 20px 3px rgba(255,255,255,0.6);
+    box-shadow: 0 5px 10px 3px rgba(255,255,255,.2);
+}
+
+.autor {
+    position: relative;
+    height: 200px;
+    justify-content:center;
+    align-items: center;
+    margin: 5px; 
+}
+
+.description {
+    margin: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.card-user .autor {
+    text-align: center;
+    margin-top: 30px;
+    text-transform: none;
+}
+
+.card-user .avatar{
+    width: 124px;
+    height: 100px;
+    border: 5px solid #efb810;
+    position: relative;
+}
+
+.card .avatar {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    color: #000000;
+    background-color: #efb810;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: .2857rem;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+
+.card-descripcion {
+    display: flexbox;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 15px;
+    align-items: center;
+
+}
+
+.per {
+    background: #efb810;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+/* Contenido de los modulos */
+
+.bodycont {
+  background:#551d2f; 
+}
+
+.Productos {
+  margin: 30px 40px 50px 40px; 
+}
+
+.Proveedor {
+  margin: 30px 40px 50px 40px;  
+}
+
+.Reservas {
+  margin: 30px 40px 50px 40px;  
+}
+
+.Usuarios {
+  margin: 30px 40px 50px 40px;  
+}
+
+.Ventas {
+  margin: 30px 40px 50px 40px;  
+}
+
+.Venta {
+  margin: 30px 40px 50px 40px;  
+}
+
+
+
+/*----Registrar Venta--------*/
+.aparte{
+    display:block;
+}
+
+.cajRegistrarVenta{
+    width: 90%;
+    margin:auto;
+    padding:10px 5px;
+}
+.cajRegistrarVenta form{
+    width: 100%;
+}
+.cajRegistrarVenta form label{
+    height:100%;
+    padding:0 8px;
+    display:flex;
+    align-items:center;
+    background:#fff;
+    color:#000;
+}
+.cajRegistrarVenta form input{
+    width: 100%;
+    border:none;
+    border-radius:0;
+    box-shadow:none;
+}
+.cajRegistrarVenta form select{
+    width: 100%;
+    border:none;
+    border-radius:0;
+    box-shadow:none;
+}
+.cajRegistrarVenta form select:focus{
+    box-shadow:none;
+}
+.cajRegistrarVenta form input:disabled{
+    background:#fff;
+}
+.cajRegistrarVenta form input:focus{
+    box-shadow:none;
+}
+
+
+.cajRegistrarVenta form .headerRegistrarVenta{
+    width: 100%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .headerRegistrarVenta .hUsuarioRegistrarVenta{
+    width:30%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .headerRegistrarVenta .hFechaRegistrarVenta{
+    width:25%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .headerRegistrarVenta .hHoraRegistrarVenta{
+    width:25%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .headerRegistrarVenta .hMesaRegistrarVenta{
+    width:20%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+
+.cajRegistrarVenta form .aggRegistrarVenta{
+    width: 100%;
+    margin:5px 0;
+    display:flex;
+    flex-flow:column nowrap;
+}
+.cajRegistrarVenta form .aggRegistrarVenta button{
+    width: 100%;
+    background:#7E1F41;
+    color:#fff;
+    margin: auto;
+}
+.cajRegistrarVenta form .aggRegistrarVenta div{
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .aggRegistrarVenta div .aggCodigoRegistrarVenta{
+    width:25%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .aggRegistrarVenta div .aggNombreRegistrarVenta{
+    width:45%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .aggRegistrarVenta div .aggCantidadRegistrarVenta{
+    width:25%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .aggRegistrarVenta div .aggPrecioRegistrarVenta{
+    width:30%;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+
+.cajRegistrarVenta form .bodyRegistrarVenta{
+    width: 100%;
+    margin-top:5px;
+    display:flex;
+    flex-flow:row nowrap;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyTableRegistrarVenta{
+    width:80%;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    background:#fff;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyTableRegistrarVenta table{
+    margin:0;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyTableRegistrarVenta table th{
+    background:#7E1F41;
+    color:#fff;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta{
+    width:20%;
+    display:flex;
+    background:#fff;
+    margin-left:6px;
+    flex-flow:column nowrap;
+    justify-content:space-around;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta input{
+    text-align:center;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta label{
+    margin:0;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta .bodyTotalRegistrarVenta{
+    width:100%;
+    display:flex;
+    background:#fff;
+    margin:4px 0;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta .bodyPagaRegistrarVenta{
+    width:100%;
+    display:flex;
+    margin:4px 0;
+    background:#fff;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta .bodyCambioRegistrarVenta{
+    width:100%;
+    display:flex;
+    background:#fff;
+    margin:4px 0;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta .bodyRegistrarRegistrarVenta{
+    width:100%;
+    display:flex;
+    background:#fff;
+    margin-top:4px;
+}
+.cajRegistrarVenta form .bodyRegistrarVenta .bodyInfoRegistrarVenta .bodyRegistrarRegistrarVenta button{
+    width:100%;
+    display:flex;
+    background:#7E1F41;
+    color:#fff;
+    border-radius:0;
+    justify-content:center;
+}
+
+
+
+/*********************************************/
+
+
+.Bienvenido {
+
+    display: inline;
+    background: #000000;
+    width: 60px;
+    font-size: 49px;
+    position: relative;
+}
+
+.bi p{
+    text-align: center;
+    letter-spacing:1.5pt;
+    color: #fff;
+}

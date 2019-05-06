@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:Times New Roman, sans-serif;
+}
+
+.li {
+    color:#fff;
+}
+
+.title-bottom{
+    display:block;
+    margin-top:-2px;
+}
+
+.modal{
+    color:#000 !important;
+}
+.modal label{
+    color:#000 !important;
+}
+/*------parte del contenido  principal----- */
+
+/*----parte de Bienvenida--------*/
+
+.container_carrusel {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;  
+    overflow: hidden;
+    z-index: 999;
+}
+
+.container_carrusel .carrusel {
+    position: relative;
+    width: 500%;
+    height: 500px;
+    display: flex;
+    animation: moverse 10s linear infinite;
+}
+
+.container_carrusel .carrusel li {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    list-style: none;
+}
+
+.flex p{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    Color:#ffffff;
+}
+
+.container_carrusel .carrusel li img {
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes moverse {
+    0%,20%{
+        margin-left: 0px;
+    }
+    25%,45%{
+        margin-left: -100%;
+    }
+    50%, 70%{
+        margin-left: -200%;
+    }
+    75%,100%{
+        margin-left: -300%;
+    }
+}
+
+
+
+
+
+/* ------contenido de licores -------- */
+
+/* ------contenido de Descubra mas -------- */
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #efb810;
+}
+
+.card-img {
+    background-position: center;
+    width: 50%;
+    float: right;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-cont {
+    background: #000000;
+    width: 48%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    padding: 30% 5%;
+    align-content: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 94% 71%, 10% 72%, 0% 38%);
+    clip-path: polygon(50% 0%, 100% 38%, 94% 71%, 10% 72%, 0% 38%);
+
+}
+
+.card-content {
+    padding: 10% 5%;
+    box-sizing: border-box;
+    width: 50%;
+    background: #000000;
+}
+
+.card-theme {
+    font-weight: 900;
+    font-size: 1.7vmin;
+    text-transform: uppercase;
+    font-family: Poppins;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+.card-header {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin: 3vmin 0 3.5vmin;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.card-para {
+    font-size: 1.6vmin;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.card-link {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.8vmin;
+    display: block;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.prevnext {
+    position: absolute;
+    width: 4vmin;
+    height: 8vmin;
+    right: 2%;
+    bottom: 0;
+    top: 80%;
+    color: #fff;
+    margin: auto 0;
+}
+
+.pn-btn {
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#prev, #next {
+    position: relative;
+    cursor: pointer;
+}
+
+#prev:focus, #next:focus {
+    outline: none;
+}
+
+#prev:hover:after, #next:hover:after {
+    opacity: 1;
+}
+
+#prev:after, #next:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+/*
+-------contenido del index Usuario--------------
+*/
+
+/* ----Contenido con Swiper----- */
+.swiper-container {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+    box-shadow: 5px 5px 9px 4px;
+}
+
+.swiper-slide .imgBx{
+    width:100%;
+    height:298px;
+    overflow:hidden;
+}
+.swiper-slide .imgBx img{
+    width:100%;
+}
+
+.swiper-slide .details{
+    box-sizing:border-box;
+    padding:14px;
+    background:#7E1F41;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+.swiper-slide .details h3{
+    color:#ffffff;
+    margin:0;
+    margin-bottom:8px;
+    padding:0;
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+}
+.swiper-slide .details button{
+    font-size:16px;
+    color:#fff;
+}
+
+
+.indexUsu-carta{
+    background-image: linear-gradient(to right top, #000000, #111010, #1c191a, #272323, #322c2c);
+    height: 200%;
+    width:100%;
+    padding:20px 0;
+} 
+
+indexUsu-carta .swiper-container {
+    padding-bottom: 0 !important;
+    background-color: #efb810;
+}
+
+indexUsu-carta .swiper-slide{
+    cursor:pointer;
+    background-color: #efb810;
+}
+
+indexUsu-carta .swiper-slide .imgBx{
+    background-size: cover;
+}
+
+indexUsu-carta .swiper-slide .imgBx img{
+}
+
+.bP {
+    background: #efb810;
+}
+
+.bP:hover {
+    background: #efb810;
+}
+
+#espacio {
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*seccion tres*/
+.cont {
+    margin: 60px;
+}
+
+.section-4 .cont{
+    overflow-x: hidden; 
+}
+
+.base {
+    background-image: linear-gradient(to right top, #ffffff, #b9bec3, #738386, #384c45, #111901);
+    box-shadow: 4px 9px 29px 6px;
+    height: 70vh;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+*footer
+*/
+.footerper {
+    background: #2b3553;
+    text-align: center;
+    padding: 24px 30px;
+    padding-left: 30px !important;
+}
+
+.footerper .navper {
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.navper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.footerper .copyright {
+    font-size: .75rem;
+    line-height: 1.8;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+/*estilos de la paginas de error*/
+.btnError {
+    background: #7E1F41;
+    color: #fff;
+}
+.btnError:hover {
+    background: #7E1F41;
+    color: #fff;
+}
